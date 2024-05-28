@@ -1,0 +1,69 @@
+<body>: Contiene el contenido principal de la página que se mostrará en el navegador.
+
+El contenido principal incluye una barra de navegación, el contenido de la página principal, ofertas, y un pie de página.
+<div class="container">: Define contenedores que ayudan a organizar y estructurar el contenido de la página. Los elementos con la clase "container" se utilizan para envolver secciones de contenido y establecer márgenes laterales.
+
+<div>, <nav>, <ul>, <li>: Elementos de navegación que forman la barra de navegación en la parte superior de la página. Contienen enlaces a diferentes secciones de la página.
+
+<div class="main-content">: Contiene el contenido principal de la página, incluyendo un mensaje destacado y un botón para explorar más.
+
+<div class="container">: Otro contenedor para el contenido secundario, que muestra ofertas con imágenes y descripciones.
+
+<footer>: Define el pie de página de la página web que incluye información adicional y enlaces sociales.
+<-------------------------------------------------------------------------------------2------------------------------------------------------------------------------------------------->
+
+
+
+
+1. : Esto selecciona todos los elementos de la página y establece márgenes y rellenos en 0 para eliminar cualquier espacio predeterminado entre elementos.
+
+2. .navbar-top: Establece estilos para la barra de navegación en la parte superior de la página, incluyendo altura, alineación de elementos y espaciado entre elementos.
+
+3. .social-link i img: Define estilos para los íconos de redes sociales en la barra de navegación, incluyendo margen izquierdo, transición de color al pasar el mouse y tamaño en pantallas pequeñas.
+
+4. .logo h3: Establece estilos para el logotipo de la página, como peso de fuente y tamaño en pantallas pequeñas.
+
+5. .icons i img: Define estilos para los íconos en la sección de iconos, incluyendo margen izquierdo y cursor.
+
+6. .main-content: Proporciona estilos para el contenido principal de la página, como altura, imagen de fondo y posición.
+
+7. #navbar-color: Establece el color de fondo para la barra de navegación.
+
+8. .navbar-nav, .nav-link: Define estilos para los enlaces de navegación, incluyendo margen izquierdo, peso de fuente, color y transición al pasar el mouse.
+
+9. .content: Establece estilos para el contenido principal de la página, incluyendo margen superior e izquierdo.
+
+10. #btn1 button a: Proporciona estilos para el botón en el contenido principal, incluyendo tamaño, bordes, espacio entre letras y transición al pasar el mouse.
+
+11. #btn2 button, #tpc, #c p, #btn3 button, #btn4 button: Define estilos para los botones en diferentes secciones de la página, incluyendo tamaño, bordes, transición al pasar el mouse y sombra.
+
+12. #footer: Establece estilos para el pie de página, incluyendo anchura, color de fondo y margen superior.
+
+13. .icons i: Proporciona estilos para los íconos sociales en el pie de página, incluyendo color y tamaño de fuente.
+
+14. .copyright, .credite: Define estilos para los textos de derechos de autor y créditos en el pie de página, incluyendo color y margen superior.
+
+
+
+<-------------------------------------------------------------------------------------3------------------------------------------------------------------------------------------------->
+
+
+1. @media screen and (max-width:420px): Esta línea indica que las reglas de estilo que siguen se aplicarán solo cuando el ancho de la pantalla sea igual o menor a 420 píxeles, es decir, en pantallas pequeñas como las de dispositivos móviles.
+
+2. .social-link i img: Esta regla selecciona las imágenes dentro de los íconos de redes sociales en la barra de navegación.
+
+   - width: 20px;: Establece que el ancho de estas imágenes será de 20 píxeles en pantallas de hasta 420 píxeles de ancho. Esto asegura que los íconos no ocupen demasiado espacio en pantallas pequeñas.
+
+3. .logo h3: Selecciona los encabezados <h3> dentro del logotipo de la página.
+
+   - font-weight: bold;: Asegura que el texto del logotipo tenga un peso de fuente en negrita, lo que lo hace más visible y legible, incluso en pantallas pequeñas.
+
+4. .icons i img: Selecciona las imágenes dentro de los íconos en la sección de iconos.
+
+   - margin-left: 10px;: Establece un margen izquierdo de 10 píxeles para estas imágenes, lo que proporciona un espacio uniforme entre los íconos y los elementos adyacentes.
+   
+   - cursor: pointer;: Define el cursor del ratón como un puntero, lo que indica que los íconos son clicables y mejora la experiencia del usuario en dispositivos táctiles.
+
+5. Otra consulta de medios con @media screen and (max-width:420px): Esta vez se aplica a las imágenes dentro de los íconos, asegurando que mantengan un ancho de 20 píxeles incluso en pantallas pequeñas.
+
+Estas reglas de estilo son esenciales para garantizar que la página web se vea y funcione correctamente en dispositivos con diferentes tamaños de pantalla, mejorando así la experiencia del usuario.
